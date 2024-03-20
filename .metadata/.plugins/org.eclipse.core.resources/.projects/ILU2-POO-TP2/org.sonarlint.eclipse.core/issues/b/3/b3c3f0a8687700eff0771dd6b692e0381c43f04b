@@ -1,0 +1,35 @@
+
+n
+java:S1854":Remove this useless assignment to local variable "obelix".b 85bdd559be4d815bde4de1a26c917b12h
+o
+java:S1854";Remove this useless assignment to local variable "asterix".b 5ff8e84e62590907c06d49725c270692h
+f
+java:S1135"2Complete the task associated to this TODO comment.b bf2572e0d50e0268284f5fd26245da3dh
+`
+java:S1481",Remove this unused "asterix" local variable.b 79cfab624c6f02057146c1cdadff2edfh
+_
+java:S1481"+Remove this unused "obelix" local variable.b ee1a4e75ae842e040348ec1d857805e8h
+o	java:S125G"<This block of commented-out lines of code should be removed.b 7364fee2a8253d4c86f8f82258dc38e5h
+o	java:S125U"<This block of commented-out lines of code should be removed.b 7364fee2a8253d4c86f8f82258dc38e5h
+o	java:S125s"<This block of commented-out lines of code should be removed.b 7364fee2a8253d4c86f8f82258dc38e5h
+p	java:S125—"<This block of commented-out lines of code should be removed.b 7364fee2a8253d4c86f8f82258dc38e5h
+p	java:S125®"<This block of commented-out lines of code should be removed.b 7364fee2a8253d4c86f8f82258dc38e5h
+q
+java:S1128"=Remove this unused import 'controleur.ControlAcheterProduit'.b a9571d6c7c8971ca90afd22fc6e63a9bh
+q
+java:S1128"=Remove this unused import 'controleur.ControlAfficherMarche'.b e844dfb47f8c81a7021ca21c1d0fe898h
+n
+java:S1128":Remove this unused import 'controleur.ControlLibererEtal'.b 8c0d14e4bd053b783182bb084770524ch
+n
+java:S1128":Remove this unused import 'controleur.ControlPrendreEtal'.b b3303f4c59acdaff519d1451e8da461ch
+u
+java:S1128	"ARemove this unused import 'controleur.ControlTrouverEtalVendeur'.b f31ad0c48ea32ab4b1bb884e25036c0eh
+d
+java:S1128"0Remove this unused import 'villagegaulois.Etal'.b 58d32460e75e4c13a1a86b8ca4eacb53h
+e	java:S106 "+Replace this use of System.out by a logger.8àººã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106&"+Replace this use of System.out by a logger.8àººã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106("+Replace this use of System.out by a logger.8àººã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S1065"+Replace this use of System.out by a logger.8É­ƒ»ã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S1066"+Replace this use of System.out by a logger.8É­ƒ»ã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106:"+Replace this use of System.out by a logger.8É­ƒ»ã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106<"+Replace this use of System.out by a logger.8É­ƒ»ã1b bb1c3f2ea781263d3a2bb92b06a2061fh

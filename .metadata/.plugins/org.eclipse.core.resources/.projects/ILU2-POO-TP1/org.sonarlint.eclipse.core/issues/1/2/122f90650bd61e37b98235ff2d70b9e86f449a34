@@ -1,0 +1,7 @@
+
+n
+java:S2479:":Remove the non-escaped \u00A0 character from this literal.b 7821d6a7bfa3ee0e39c3f11780794125h
+n
+java:S2479=":Remove the non-escaped \u00A0 character from this literal.b 712b0268643342613b6d478fa07feafeh
+n
+java:S2479A":Remove the non-escaped \u00A0 character from this literal.b 178973c8a6954adfdece44b366fa45a8h

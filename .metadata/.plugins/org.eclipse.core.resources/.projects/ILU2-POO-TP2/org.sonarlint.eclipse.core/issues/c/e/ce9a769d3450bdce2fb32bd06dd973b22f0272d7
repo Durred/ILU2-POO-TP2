@@ -1,0 +1,8 @@
+
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+n
+java:S2479":Remove the non-escaped \u00A0 character from this literal.b 891a1b41f9a85c94caa099d706cada5fh
+e	java:S106"+Replace this use of System.out by a logger.8 ýÃ¹ã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106%"+Replace this use of System.out by a logger.8óð×¹ã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S1060"+Replace this use of System.out by a logger.8µ•žºã1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S1066"+Replace this use of System.out by a logger.8âÕ¦ºã1b bb1c3f2ea781263d3a2bb92b06a2061fh
