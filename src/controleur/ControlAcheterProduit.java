@@ -30,6 +30,6 @@ public class ControlAcheterProduit {
 	}
 	
 	public void acheterProduit(int quantity, String vendeur) {
-		
+		return controlTrouverEtalVendeur.trouverEtalVendeur(vendeur).acheterProduit(quantity);
 	}
 }
