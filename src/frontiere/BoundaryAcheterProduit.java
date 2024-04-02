@@ -17,28 +17,31 @@ public class BoundaryAcheterProduit {
 		String produit = scan.nextLine();
 		String[] vendeursProduit = controlAcheterProduit.trouverVendeursProduit(produit);
 		if(vendeursProduit == null) {
-			System.out.println("Désolé, personne ne vend ce produit au marché.\n");
+			System.out.println("Dï¿½solï¿½, personne ne vend ce produit au marchï¿½.\n");
 		}
 		else {
-			System.out.println("Chez quel commerçant voulez-vous acheter des "+produit+" ?\n");
+			System.out.println("Chez quel commerï¿½ant voulez-vous acheter des "+produit+" ?\n");
 			for(int i = 1; i<vendeursProduit.length; i++) {
 				System.out.println(i+" - "+vendeursProduit[i-1]+"\n");
 			}
 			int nEtal = scan.nextInt();
 			if (nEtal>= vendeursProduit.length || nEtal < 0) {
-				System.out.println("Il n'y a pas votre produit à cette étal.");
+				System.out.println("Il n'y a pas votre produit ï¿½ cette ï¿½tal.");
 			} else {
-				System.out.println(nomAcheteur+" se déplace jusqu'à l'étal du vendeur " + vendeursProduit[nEtal]);
+				System.out.println(nomAcheteur+" se dï¿½place jusqu'ï¿½ l'ï¿½tal du vendeur " + vendeursProduit[nEtal]);
 				System.out.println("Combien de "+produit +" voulez-vous acheter ?\n");
 				int quantityToBuy = scan.nextInt();
-				if (controlAcheterProduit.getNombreProduit(vendeursProduit[nEtal])>=quantityToBuy) {
-					System.out.println(nomAcheteur+" achète " + quantityToBuy + " "+ produit+" à "+ vendeursProduit[nEtal]+".\n");
-					controlAcheterProduit.
+				int quantityAvailable = controlAcheterProduit.getNombreProduit(vendeursProduit[nEtal]);
+				if (quantityAvailable>=quantityToBuy) {
+					System.out.println(nomAcheteur+" achï¿½te " + quantityToBuy + " "+ produit+" ï¿½ "+ vendeursProduit[nEtal]+".\n");
+					controlAcheterProduit.acheterProduit(vendeursProduit[nEtal], quantityToBuy);
 				} else {
-					if (controlAcheterProduit.getNombreProduit(vendeursProduit[nEtal])<quantityToBuy && controlAcheterProduit.getNombreProduit(vendeursProduit[nEtal])>0 ) {
-						System.out.println(nomAcheteur+" achète " + quantityToBuy + " "+ produit+" à "+ vendeursProduit[nEtal]+".\n");
+					if (quantityAvailable<quantityToBuy && quantityAvailable<=0 ) {
+						System.out.println(nomAcheteur + " veut acheter "+quantityToBuy +" "+ produit + ", malheureusement il n'y en a plus !\n");
 					} else {
-						
+						System.out.println(nomAcheteur + " veut acheter "+quantityToBuy +" "+ produit + ", malheureusement "+ vendeursProduit[nEtal]+" n'en a plus que "
+						+ quantityAvailable + ". " + nomAcheteur + " achÃ¨te tout le stock de " + vendeursProduit[nEtal]+"\n");
+						controlAcheterProduit.acheterProduit(vendeursProduit[nEtal], quantityAvailable);
 					}
 				}
 				
